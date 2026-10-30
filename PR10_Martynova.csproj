@@ -8,7 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include=".github\workflows\pr10.Designer.yml" />
     <None Include=".github\workflows\pr10.yml" />
   </ItemGroup>
 
