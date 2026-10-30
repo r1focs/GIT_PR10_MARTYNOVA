@@ -1,1 +1,1 @@
-﻿Console.WriteLine("Hello, World!");
+﻿Console.WriteLine($"Текущая дата и время: {DateTime.Now}");

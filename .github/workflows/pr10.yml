@@ -1,0 +1,17 @@
+﻿name: MyAction
+on: push
+
+jobs:
+  MyBuild:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 10.0.x
+
+      - name: Run Project
+        run: dotnet run
